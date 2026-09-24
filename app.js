@@ -12,7 +12,7 @@ function createServer() {
 
     if (req.method === 'GET' && req.url === '/') {
       res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8' });
-      res.end('Hello from Jenkins CI/CD on AWS EC2!\n');
+      res.end('Hello from Jenkins CI/CD Build #2 - Webhook Success!\n');
       return;
     }
 
