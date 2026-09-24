@@ -1,0 +1,10 @@
+.git
+node_modules
+coverage
+*.log
+.env
+.env.*
+*.pem
+.DS_Store
+Jenkinsfile
+README.md
